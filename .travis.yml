@@ -10,3 +10,4 @@ matrix:
 deploy:
   provider: cargo
   token: "cargo login KrspNh2OlTzKFZGCJUy2qPCDjtDI8GKI"
+   file: "target/"
