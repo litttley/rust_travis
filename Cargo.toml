@@ -1,0 +1,10 @@
+[package]
+name = "tes02"
+version = "0.1.0"
+authors = ["litttley <617914118@qq.com>"]
+edition = "2018"
+
+[dependencies]
+reqwest = "0.9.16"
+select = "0.4.2"
+json = "*"
