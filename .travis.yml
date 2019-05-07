@@ -1,8 +1,6 @@
 language: rust
 rust:
   - stable
-  - beta
-  - nightly
 matrix:
   allow_failures:
     - rust: nightly
@@ -10,4 +8,4 @@ matrix:
 deploy:
   provider: cargo
   token: "cargo login KrspNh2OlTzKFZGCJUy2qPCDjtDI8GKI"
-   file: "target/"
+  file: "target/"
