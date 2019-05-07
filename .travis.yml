@@ -7,5 +7,5 @@ matrix:
   fast_finish: true
 deploy:
   provider: cargo
-  token: "cargo login KrspNh2OlTzKFZGCJUy2qPCDjtDI8GKI"
-  file: " git add target"
+  token: "cargo publish KrspNh2OlTzKFZGCJUy2qPCDjtDI8GKI"
+
