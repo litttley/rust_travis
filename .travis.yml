@@ -9,4 +9,4 @@ matrix:
   fast_finish: true
 deploy:
   provider: cargo
-  token: "0CTCBGKkJWzY4ACZ5ryHeDukTIx3yUVp"
+  token: "cargo login KrspNh2OlTzKFZGCJUy2qPCDjtDI8GKI"
