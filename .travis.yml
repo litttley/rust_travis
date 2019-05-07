@@ -7,7 +7,7 @@ matrix:
   allow_failures:
     - rust: nightly
   fast_finish: true
- deploy:
+deploy:
   provider: releases
   api_key: "796a0dcacf9b1f417189292246072c51e0877a84"
   file: "FILE TO UPLOAD"
