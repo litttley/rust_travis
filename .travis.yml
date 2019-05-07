@@ -8,4 +8,7 @@ matrix:
 deploy:
   provider: cargo
   token: "cargo publish KrspNh2OlTzKFZGCJUy2qPCDjtDI8GKI"
+  file:  target/*
+  on:
+    tags: true
 
