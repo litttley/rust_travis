@@ -8,8 +8,5 @@ matrix:
     - rust: nightly
   fast_finish: true
 deploy:
-  provider: releases
-  api_key: "796a0dcacf9b1f417189292246072c51e0877a84"
-  file: "FILE TO UPLOAD"
-  skip_cleanup: true
-  draft: true
+  provider: cargo
+  token: "0CTCBGKkJWzY4ACZ5ryHeDukTIx3yUVp"
